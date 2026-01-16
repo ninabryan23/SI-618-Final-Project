@@ -1,0 +1,8 @@
+html5lib
+selenium==4.18.1
+geopy==2.4.1
+astral==3.2
+pygeos==0.14
+wget==3.2
+statsmodels==0.14.1
+geopandas
