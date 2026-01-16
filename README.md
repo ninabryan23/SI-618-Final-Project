@@ -22,6 +22,17 @@ All analysis was conducted in Jupyter notebooks, with rendered HTML versions inc
 
 ---
 
+## ⚠️ Data Availability Notice
+Raw datasets used in this project are **not included in the GitHub repository** due to GitHub file size limitations.  
+All dataset download links, sources, and descriptions are explicitly documented in:
+
+- **Project Part I: Project Proposal.html**
+- **Project Part I: Project Proposal.ipynb**
+
+The notebooks in this repository reference these datasets and document all preprocessing and feature engineering steps.
+
+---
+
 ## Project Structure
 ```
 SI-618-Final-Project/
@@ -32,7 +43,7 @@ SI-618-Final-Project/
 │   ├── cb_2018_us_state_500k.shx
 │   └── metadata XML files
 │
-├── data/                            # Raw and processed datasets
+├── data/                            # Raw and processed datasets (not tracked in repo)
 │   ├── city_temperature.csv
 │   ├── drug_use.csv
 │   ├── keywords.csv
@@ -51,17 +62,17 @@ SI-618-Final-Project/
 │
 ├── deepnote_exports/                # Exported outputs from Deepnote
 │
-├── Project Part I (Proposal + EDA)/                  # Proposal phase
-│   ├── Project Part I/  Project Proposal.html
-│   └── Project Part I/  Project Proposal.ipynb
+├── Project Part I (Proposal + EDA)/
+│   ├── Project Proposal.html
+│   └── Project Proposal.ipynb
 │
-├── Project Part II (Analysis)/                 # Analysis phase
-│   ├── Project Part II/ Analysis.html
-│   └── Project Part II/ Analysis.ipynb
+├── Project Part II (Analysis)/
+│   ├── Analysis.html
+│   └── Analysis.ipynb
 │
-├── Project Part III (Machine Learning)/                # Machine learning phase
-│   ├── Project Part III/ Machine Learning.html
-│   └── Project Part III/ Machine Learning.ipynb
+├── Project Part III (Machine Learning)/
+│   ├── Machine Learning.html
+│   └── Machine Learning.ipynb
 │
 └── requirements.txt                 # Explicit Python dependencies
 ```
@@ -80,5 +91,5 @@ pip install -r requirements.txt
 
 ## Notes
 - HTML files are rendered versions of the notebooks and can be viewed without executing code.
-- Large CSV files are included for reproducibility and reflect the original datasets used in analysis.
+- Large raw datasets are intentionally excluded from version control; dataset sources are documented in the project proposal.
 - The directory structure mirrors the logical progression of the project from proposal to modeling.
